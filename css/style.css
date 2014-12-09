@@ -67,3 +67,43 @@ canvas {
 
 
 
+
+/*==================================================
+ARCADE BUTTON
+==================================================*/
+* {
+  box-sizing: border-box;
+}
+
+.controls a {
+	font-family: Helvetica, sans-serif;
+	width: 100px;
+	height: 100px;
+	display: block;
+	border-radius: 50%;
+	background: #d1442b;
+	background: -moz-linear-gradient(top,  #d1442b 0%, #ad2114 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1442b), color-stop(100%,#ad2114));
+	background: -webkit-linear-gradient(top,  #d1442b 0%,#ad2114 100%);
+	background: -o-linear-gradient(top,  #d1442b 0%,#ad2114 100%);
+	background: -ms-linear-gradient(top,  #d1442b 0%,#ad2114 100%);
+	background: linear-gradient(to bottom,  #d1442b 0%,#ad2114 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1442b', endColorstr='#ad2114',GradientType=0 );
+	border: 3px solid #AA0E00;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	line-height: 100px;
+	margin: 20px;
+}
+.controls a.left {
+	float: left;
+}
+.controls a.right {
+	float: left;
+}
+.controls a.shoot {
+	float: right;
+}
